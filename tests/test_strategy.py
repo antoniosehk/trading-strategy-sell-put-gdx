@@ -22,7 +22,7 @@ from trading_strategy_sell_put_gdx import (
 def test_load_strategy_success():
     spec = load_strategy()
     assert spec.name == "trading-strategy-sell-put-gdx"
-    assert spec.version == "1.0.0"
+    assert spec.version == "1.0.1"
     assert spec.enabled is True
     assert spec.underlying == "US.GDX"
     assert spec.strategy_type == "SHORT_PUT"

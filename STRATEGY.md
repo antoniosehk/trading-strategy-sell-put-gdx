@@ -1,6 +1,6 @@
 ---
 name: trading-strategy-sell-put-gdx
-version: 1.0.0
+version: 1.0.1
 enabled: true
 description: Tastytrade mechanics for selling out-of-the-money puts on GDX on Fridays with GLD macro 200-day trend filter, defensive rolling, and 0.16 Delta
 strategy_type: SHORT_PUT
